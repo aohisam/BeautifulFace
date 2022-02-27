@@ -1,0 +1,48 @@
+body.gradient {
+    --font-heading-family: 游明朝, Arial, sans-serif;
+    --font-body-family:  游明朝, Arial, sans-serif;
+}
+.shopify-section .page-width {
+    padding: 0;
+    margin: 0 1vw;
+}
+.header.header--middle-left {
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.header__inline-menu {
+    text-align: center;
+}
+.header__menu-item {
+    font-size: 26px;
+}
+.banner__box.content-container {
+    text-align: left;
+}
+
+.banner .banner__content {
+    padding: 0;
+    margin: 0 1vw;
+}
+.banner__heading span {
+    font-size: 56px;
+    letter-spacing: 0.3rem;
+}
+.banner__text span {
+    font-size: 40px;
+}
+.banner__box.content-container .banner__text {
+    margin-top: -2rem;
+}
+.shopify-section .banner::after {
+    background: none;
+}
+.shopify-section .banner__box {
+    padding: 0;
+}
+.button {
+    background-color: #000;
+    font-size: 30px;
+}
+.button::after {
+    box-shadow: none;
+}
